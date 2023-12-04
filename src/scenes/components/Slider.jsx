@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 import ArrowUpwardOutlinedIcon from '@mui/icons-material/ArrowUpwardOutlined';
 export const Slider = () => {
   return (
-    <section className='slider home mx-4'>
+    <section className='slider home'>
       <div className="slider-item">
         <div className="img-slider">
           <img className="img-item" src="https://themesflat.co/html/dreamhomehtml/assets/images/slider/bg-slider-1.png" alt="img1" />
