@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Contact = () => {
   return (
-    <section className="flat-contact pt-4 xl:mx-54">
+    <section className="flat-contact pt-4 lg:px-56 px-4">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="relative overflow-hidden md:mx-0 mx-4">
           <div className="heading-section">

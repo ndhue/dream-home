@@ -3,7 +3,7 @@ import { Heading } from '../../components/Heading';
 
 export const Blog = () => {
   return (
-    <section className="flat-blog wg-dream tf-section py-4 md:py-24 mx-4">
+    <section className="flat-blog wg-dream tf-section py-4 md:py-24 px-4">
       <Heading
         header="Form our blog"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tristique metus proin id lorem odio"

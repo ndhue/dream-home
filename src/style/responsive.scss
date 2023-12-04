@@ -191,6 +191,12 @@
       padding: 30px 15px 30px 15px;
     }
   }
+
+  .feature {
+    .wrap-item {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -336,12 +342,6 @@
 
     .mark-contact {
       display: none;
-    }
-  }
-
-  .feature {
-    .wrap-item {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 }
