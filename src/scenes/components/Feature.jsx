@@ -38,7 +38,7 @@ export const Feature = () => {
             </div>
             <div className="content-tab mx-auto">
               <div className="content-inner tab-content">
-                <div className="wrap-item grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div className="wrap-item grid grid-cols-4 gap-4">
                   <Box
                     image="https://themesflat.co/html/dreamhomehtml/assets/images/house/featured-1.jpg"
                     author="https://themesflat.co/html/dreamhomehtml/assets/images/author/author-1.jpg"

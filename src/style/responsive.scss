@@ -28,6 +28,12 @@
       margin-right: 0px;
     }
   }
+  
+  .feature {
+    .wrap-item {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
 }
 
 
@@ -332,12 +338,23 @@
       display: none;
     }
   }
+
+  .feature {
+    .wrap-item {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
 }
 
 @media only screen and (max-width: 550px) {
   .slider {
     .form {
       padding: 20px 3px 10px 15px;
+    }
+  }
+  .feature {
+    .wrap-item {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
     }
   }
 }
