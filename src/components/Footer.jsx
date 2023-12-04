@@ -5,7 +5,7 @@ import { Widget } from './Widget';
 export const Footer = () => {
   return (
     <footer>
-      <div className="px-4 xl:px-56 md:pt-[100px] pt-[80px]">
+      <div className="mx-5 xl:px-56 md:pt-[100px] pt-[80px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div>
             <div className="group-icon">

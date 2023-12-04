@@ -32,12 +32,12 @@ export const Testimonial = () => {
     ]
   };
   return (
-    <section className="flat-testimonial tf-section py-4 lg:py-24">
+    <section className="flat-testimonial tf-section py-4 lg:py-24 mx-4">
       <Heading
         header="From our happy customers"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tristique metus proin id lorem odio"
       />
-      <div className="mx-4 xl:mx-56">
+      <div className="xl:mx-56">
         <div className="slider">
           <Slider {...settings}>
             <div className="box center px-3">

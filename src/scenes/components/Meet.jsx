@@ -3,12 +3,12 @@ import { Heading } from '../../components/Heading';
 
 export const Meet = () => {
   return (
-    <section className="flat-meet tf-section py-4 md:py-24">
+    <section className="flat-meet tf-section py-4 md:py-24 mx-4 xl:mx-56">
       <Heading
         header="Meet the agents"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel lobortis justo"
       />
-      <div className="content mx-4 xl:mx-56 grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8">
+      <div className="content grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8">
         <div className="box hover-img">
           <div className="images relative img-style">
             <a href="agents-detail.html"><img src="https://themesflat.co/html/dreamhomehtml/assets/images/img-box/meet-1.jpg" alt="images" /></a>

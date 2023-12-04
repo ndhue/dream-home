@@ -3,12 +3,12 @@ import { Heading } from '../../components/Heading';
 
 export const Blog = () => {
   return (
-    <section className="flat-blog wg-dream tf-section py-4 md:py-24">
+    <section className="flat-blog wg-dream tf-section py-4 md:py-24 mx-4">
       <Heading
         header="Form our blog"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tristique metus proin id lorem odio"
       />
-      <div className="content mx-4 xl:mx-56 grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8">
+      <div className="content mx-0 xl:mx-56 grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8">
         <div className="box hover-img mb-1">
             <div className="images img-style relative ">
               <a href="blog-detail.html"><img src="https://themesflat.co/html/dreamhomehtml/assets/images/img-box/blog-1.jpg" alt="images" /></a>
